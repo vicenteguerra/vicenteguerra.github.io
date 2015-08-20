@@ -1,0 +1,57 @@
+element.style {
+    border-top-width: 40px;
+    }
+
+body {
+  background-color: #d8e8e7;
+  background-image: url(http://www.transparenttextures.com/patterns/fake-brick.png) ;
+  position: block;
+  display: inline;
+}
+
+.loader {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    /* background-color: #0A2844; */
+    /* border: 20px solid #27b3ea; */
+    margin: 5em auto;
+    position: relative;
+    -webkit-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+}
+
+a {
+     text-decoration: none;
+     color: #10203a;
+}
+
+a:hover {
+    color: #048f9e;
+}
+
+h1 {
+text-align: center;
+color: #10203a;
+font-family: 'Lato', sans-serif;
+font-weight: 300;
+font-size: 4em;
+
+}
+
+@-webkit-keyframes spin {
+    0%   {
+          -webkit-transform: rotate(0deg);
+          -moz-transform: rotate(0deg);
+          -ms-transform: rotate(0deg);
+          -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+          }
+    100% {
+          -webkit-transform: rotate(360deg);
+          -moz-transform: rotate(360deg);
+          -ms-transform: rotate(360deg);
+          -o-transform: rotate(360deg);
+          transform: rotate(360deg);
+          }
+}

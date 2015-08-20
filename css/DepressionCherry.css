@@ -1,0 +1,10 @@
+body{
+	margin: 0;
+}
+
+a{
+	background-color: #f2f2f2;
+	padding: 5px 10px;
+	margin: 5px;
+	display: inline-block;
+}
